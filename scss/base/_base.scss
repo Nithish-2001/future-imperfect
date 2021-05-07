@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+
+    @include respond(tab) {
+        font-size: 56.25%;
+    }
+
+}
+
+body {
+    box-sizing: border-box;
+    background-color: rgba($color-primary,.2);
+    line-height: 1.6;
+    font-size: $default-font-size;
+}
