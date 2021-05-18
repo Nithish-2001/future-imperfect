@@ -17,7 +17,7 @@ html {
 
 body {
   box-sizing: border-box;
-  background-color: red;
+  background-color: rgba(163,163,163,.2);
   line-height: 1.6;
   font-size: 1.6rem;
 }
